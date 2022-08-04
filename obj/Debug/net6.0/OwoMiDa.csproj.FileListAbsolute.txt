@@ -1,0 +1,15 @@
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\bin\Debug\net6.0\OwoMiDa.exe
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\bin\Debug\net6.0\OwoMiDa.deps.json
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\bin\Debug\net6.0\OwoMiDa.runtimeconfig.json
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\bin\Debug\net6.0\OwoMiDa.dll
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\bin\Debug\net6.0\OwoMiDa.pdb
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\obj\Debug\net6.0\OwoMiDa.csproj.AssemblyReference.cache
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\obj\Debug\net6.0\OwoMiDa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\obj\Debug\net6.0\OwoMiDa.AssemblyInfoInputs.cache
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\obj\Debug\net6.0\OwoMiDa.AssemblyInfo.cs
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\obj\Debug\net6.0\OwoMiDa.csproj.CoreCompileInputs.cache
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\obj\Debug\net6.0\OwoMiDa.dll
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\obj\Debug\net6.0\refint\OwoMiDa.dll
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\obj\Debug\net6.0\OwoMiDa.pdb
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\obj\Debug\net6.0\OwoMiDa.genruntimeconfig.cache
+C:\Users\Support\source\repos\OwoMiDa\OwoMiDa\obj\Debug\net6.0\ref\OwoMiDa.dll

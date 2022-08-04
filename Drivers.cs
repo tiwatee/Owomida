@@ -11,9 +11,8 @@ namespace OwoMiDa
         public string VehicleType()
         {
             Console.WriteLine("Do you drive a keke, okada, korope or big bus? ");
-            string vehicle = Console.ReadLine();
-            string vvehicle = vehicle.ToLower();
-            switch (vvehicle)
+            string? vehicle = Console.ReadLine();
+            switch (vehicle.ToLower())
             {
                 case "keke":
                     return "50";
@@ -39,7 +38,7 @@ namespace OwoMiDa
             while((ms != "0") || (ms != "1"))
             {
                 Console.WriteLine("If you are a member of the NURTW, type 1. If not, type 0: ");
-                ms = Console.ReadLine();
+                ms = Console.ReadLine().ToLower();
                 if ((ms == "0")||(ms=="1"))
                 {
                     break;
@@ -54,20 +53,13 @@ namespace OwoMiDa
                 double rate = 1;
                 return rate;
             }
-            else if (ms == "1")
+            else
             {
                 double rate = 0.7;
                 return rate;
 
             }
-            else
-            {
-                return 5.0;
-            }
-
-
         }
-
         public double TollFee(double rate, int vehicleTypeCharge)
         {
             Console.WriteLine("How many trips did you take today? ");
@@ -80,12 +72,14 @@ namespace OwoMiDa
         public double TotalAmount()
         {
             double Amount = 0;
-            for (int i=1; i<=5; i++)
+            for (int i=0; i<5; i++)
             {
-                Console.WriteLine("Driver " + i + ":");
+                Console.WriteLine("Driver {0} : ", i+1);
                 double rate = Membership();
                 int vehicleTypeCharge = Convert.ToInt32(VehicleType());
-                Amount += TollFee(rate,vehicleTypeCharge);
+                int tollFee = Convert.ToInt32(TollFee(rate, vehicleTypeCharge));
+                Console.WriteLine("The Toll fee for driver {0} is {1} \n",i+1, tollFee);
+                Amount += tollFee;
             }
             return Amount;
         }      
